@@ -1,0 +1,84 @@
+Player Cards Purpose
+
+- Support their heroes
+	- Set up defenses
+		- effects
+			- Spells
+			- Enchantments
+			- Items
+		- minions/creatures
+	- Set up offense
+		- effects
+			- Spells
+			- Enchantments
+			- Items
+		- minions/creatures
+
+Hero Cards Purpose
+
+- Hero Abilities
+	- Special attacks
+		- Spells
+		- Enchantments
+		- Ongoing effects
+		- Powers
+		- Weapons
+	- Special Abilities
+		- Healing
+			- Medical
+			- Magical
+				- Divine
+				- Arcane
+				- Profane
+		- Shielding
+			- Tech
+			- Magic
+			- Natural
+		- Movement
+			- Tech
+			- Magic
+			- Natural
+		- Crowd Control
+			- Prevent abilities
+			- Prevent items
+			- Stop movement
+		- Resources
+			- Resource gain
+			- Resource steal
+			- Opponent resource loss
+- Items
+		- Equipment
+			- Weapons
+			- Armor
+			- Special
+		- Healing
+			- Consumables
+			- Ongoing
+			- Wearables
+		- Support
+			- Special
+
+Environment Cards Purpose
+
+- Setting
+	- Dangerous
+		- Environmental hazards
+		- Environment change
+		- Cancellation
+		- Prevent movement
+		- Area denial
+		- Creatures
+		- Resources
+	- Helpful
+		- Environmental hazards
+		- Environment change
+		- Empowerment
+		- Defense
+		- Creatures
+		- Resources
+- Creatures
+	- Monsters
+	- Animals
+	- Tech
+	- Humanoid
+	- Abominations

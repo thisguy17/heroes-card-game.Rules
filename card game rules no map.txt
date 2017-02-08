@@ -1,0 +1,53 @@
+8 planes, laid out on game board/mat
+
+monsters and heroes can be from any plane
+
+(optional)all creatures are aligned with positive or negative and can also be aligned with an elemental plane
+
+(optional)aligned creatures ignore detrimental environmental effects of planes
+
+(optional, but good!!!)only one portal focus in material plane stronghold; either randomly aligned to a plane or can be used by actions to connect to a plane
+- can only enter mat planes via portal focus connection
+- can enter elemental/aligned planes via others or mat plane connection
+
+can move to any connected planes by moving to a portal.
+
+while in a plane, can move to objectives or enemies or allies
+
+--actions
+- move to an objective (move)
+- engage an enemy (move)
+- go through a portal (move)
+- group with an ally [form up](move)
+- engage an enemy (move)
+- disengage from an encounter (action, card(s))
+- interact with environment/objective (action(s), card(s))
+- attack (action, card(s))
+- use abilities (action(s), card(s))
+
+Material Planes: 
+- Portals located within respective strongholds
+- Portal focuses are located here
+	- 6 focuses
+	- Each focus has hp
+	- Each focus is a connection to a specific plane and when the focus is destroyed, the related portal in the stronghold is closed
+- Portal defenses are placed within strongholds to defend the focuses
+
+- human - opposite: monster, connections: n - aligned s - elementals
+	- starting area
+		- defenses: "Elite Defender", defender cards, allies, heroes
+
+- Monster - opposite: human, connections: n - elementals s - aligned
+	- starting area
+		- defenses: "Elite Defender", defender cards, allies, heroes
+
+Elemental Planes: (jungle; has elemental environmental effects)
+- Earth - opposite: air, connections: w - fire, e - water, n - human, s - monster
+- Air - opposite: earth, connections: w - water, e - fire, n - monster, s - human
+- Fire - opposite: water, connections: w - human, e - monster, n - earth, s - air
+- Water - opposite: fire, connections: w - monster, e - human, n - earth s - air
+
+Aligned Planes: (river/objectives, has aligned environmental effects)
+- Positive - opposite: negative, connections: n - human, s - monster
+- Negative - opposite: positive, connections: n - monster, s - human
+

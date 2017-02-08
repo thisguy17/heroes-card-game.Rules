@@ -1,0 +1,143 @@
+MONSTERS AND ALLIES
+STATS: Spd, Ski, Str, Con, Lv
+
+Monsters:
+- Monsters stay on their home plane, unless forced to leave.
+- Monsters recover hit points if left alone on a plane.
+
+Elemental Plane of Fire
+- Flame Mephit CR 0.125
+- Fire Newt CR 0.25
+- Fire Elemental
+	- Flameling CR 0.5
+	- Small CR 1
+	- Medium CR 2
+	- Large CR 5
+	- Huge CR 7
+	- Greater CR 9
+	- Elder CR 11
+- Azer CR 2
+- Hell Hound CR 3
+- Salamander CR 5
+- Harginn CR 6
+- Fire Giant CR 9
+- Efreeti CR 11
+- Pyrohydra CR 14
+- Noble Efreeti CR 15
+- Red Dragon CR 17
+
+Elemental Plane of Water
+- Water Mephit CR 0.125
+- Water Wierd CR 0.25
+- Water Elemental
+	- Spitter CR 0.5
+	- Small CR 1
+	- Medium CR 2
+	- Large CR 5
+	- Huge CR 7
+	- Greater CR 9
+	- Elder CR 11
+- Sahuagin CR 3
+- Triton CR 4
+- Nereid CR 6
+- Marid CR 12
+- Dragon Turtle CR 12
+- Noble Marid CR 15
+- Topaz Dragon CR 17
+
+Elemental Plane of Earth
+- Dust Mephit CR 0.125
+- Xornling CR 0.25
+- Earth Elemental
+	- Crawlers CR 0.5
+	- Small CR 1
+	- Medium CR 2
+	- Large CR 5
+	- Huge CR 7
+	- Greater CR 9
+	- Elder CR 11
+- Sand Elemental CR 2
+- Thoqqua CR 2
+- Crysmal CR 3
+- Xorn
+	- Minor CR 3
+	- Average CR 6
+	- Elder CR 8
+- Dao CR 12
+- Noble Dao CR 15
+- Amethyst Dragon CR 17 (BOSS)
+
+Elemental Plane of Air
+- Gust Mephit CR 0.125
+- Arrowhawk CR 0.25
+- Air Elemental
+	- Duster CR 0.5
+	- Small CR 1
+	- Medium CR 2
+	- Large CR 5
+	- Huge CR 7
+	- Greater CR 9
+	- Elder CR 11
+- Aarocokra CR 2
+- Iidriss CR 3
+- Preyton CR 4
+- Sylph CR 5
+- Invisible Stalker CR 6
+- Wind Walker CR 8
+- Djinni CR 12
+- Noble Djinni CR 15
+- Emerald Dragon CR 17 (BOSS)
+
+Positive Plane: Outside colosseum encounter (engage colosseum) fighting is not allowed; penalty - get attacked by Solar
+- Colosseum
+	- Large Beasts CR 1-9 (n. neutral)
+	- Champions CR 3-18 (any)
+- Angels
+	- Deva CR 10 (l. Good)
+	- Planetar CR 16 (l. Good)
+	- Solar CR 21 (l. Good; BOSS)
+- Celestials
+	- Pegasus CR 2 (n. Good)
+	- Couatl CR 4 (n. Neutral)
+	- Unicorn CR 5 (c. Good)
+	- Empyrean CR 23 (n. Neutral; BOSS; [The Colossus Approaches])
+
+Negative Plane: Game starts with Balor or Pit Fiend card here; Automatically engages
+- Demons (ch. evil)
+	- Dretch CR 0.25
+	- Quasit CR 2
+	- Shadow Demon CR 4
+	- Barlgura CR 5
+	- Hezrou CR 8
+	- Glabrezu CR 9
+	- Nalpheshne CR 13
+	- Marilith CR 16
+	- Goristro CR 17
+	- Balor CR 20 (BOSS)
+- Devils (l. evil)
+	- Lemure CR 0.25
+	- Imp CR 1
+	- Spined Devil CR 2
+	- Barbed Devil CR 5
+	- Chain Devil CR 8
+	- Bone Devil CR 9
+	- Horned Devil CR 11
+	- Erinyes CR 12
+	- Ice Devil CR 14
+	- Pit Fiend CR 20 (BOSS)
+
+Allies:
+
+- Soldiers
+	- creatures that are trained members of a military/mercenery group
+- Summons
+	- creatures from other planes conjured through magic to aid the summoner
+- Pets
+	- creatures belonging to specific heroes
+- Constructs
+	- creatures created through magic or technology to serve a specific purpose
+- Contracts
+	- some creatures (particularly, powerful ones) may serve heroes after a price is paid, though loyalty may be in question
+
+- Soldiers
+	- 

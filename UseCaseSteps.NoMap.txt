@@ -1,0 +1,94 @@
+New Terms:
+- Character - any card that is a monster, hero, or ally
+- Monster - neutral (to heroes) creature cards that aren't heroes
+- Ally - creature cards that are aligned with a hero but aren't heroes
+- Group-Up - Heroes can Group-Up with allies; While grouped up, when the hero takes move actions, the allies do the same. Otherwise, the 
+	heroes and allies behave as normal.
+- Encounter - When any two or more enemies are engaged in combat, that is called an encounter. Heroes, allies, and monsters can join in an
+	encounter by moving. Grouped characters can also join an encounter. Leaving an encounter is called disengaging.
+
+Game Start: (1v1)
+
+Each player's hero card is placed on his/her stronghold.
+
+Both players draw 5 cards (Perhaps Less or more cards)
+
+Both players may mulligan any number of times, drawing one card less for each time (perhaps other mulligan)
+
+------Turn 1 Begins:
+
+The environment phase begins.
+- If there are any characters in a world (that isn't a stronghold), an environment card is played on that world.
+- Ongoing environment cards take effect.
+- On the first turn, all characters should be in a stronghold.
+
+The character with the highest speed(?, maybe roll a die and add speed) takes his/her turn first.
+As characters (allies, monsters, etc.) are added and as the game progresses, the turn order may change.
+
+Hero 1 Turn 1:
+1. Draw Stage: The player draws cards equal to the hero's INT
+
+2. Action Stage: The player chooses actions for the hero to take in any order
+
+Actions Option 1: "1 Move and Actions" (easy to balance)
+- There are 2 types of actions, "Moves" and "Actions"
+- A hero may make a number of "Actions" equal to its speed
+- A hero may make one move action at any point during its turn
+- A "Move" is self explanatory; a character simply changes location on the same world or between worlds using a portal
+
+Actions Option 2: "Actions" (complicated balancing)
+- There is only one type of action
+- A hero may make a number of actions equal to its speed
+- There is no "Move" action, moving is a generic action
+
+Actions Option 3: "Moves plus Actions" (easy to balance, but requires lower speeds)
+- There are 2 types of actions, "Moves" and "Actions"
+- A hero may make a number of "Actions" equal to its speed
+- A hero may also make a number of "Moves" equal to its speed
+
+- An action is anything that a character may do; Attack, Use Ability, Disengage, Interact with Objective, or move
+see above for "number of actions" formats
+	Move: the hero is moved to a new location
+	Movement Examples:
+	- A portal on the same world, sending the hero card to the new world associated with that portal
+	- Engaging an enemy in an encounter
+	- An objective on the same world
+	- Group up with an ally on the same world
+
+	Action: the hero performs an action
+	Action Examples:
+	- Attack an enemy; Ranged attacks can only be made while not engaged in an encounter, Melee attacks can only be made while engaged
+	- Use an ability
+	- Disengage; leave an encounter
+	- Interact with Objective; Most items are found and must be picked up; damaging a portal focus
+
+3. End Stage: Any effects that happen at the end of the turn happen; Any effects that last until end of turn end; etc.
+
+Hero 2 Turn 1:
+1. Draw Stage: The player draws cards equal to the hero's INT
+
+2. Action Stage: The player chooses actions for the hero to take in any order
+
+3. End Stage: Any effects that happen at the end of the turn happen; Any effects that last until end of turn end; etc.
+
+------Turn 2 Begins:
+
+Environment Phase:
+- If there are any characters in a world (that isn't a stronghold), an environment card is played on that world.
+- Ongoing environment cards take effect.
+
+Hero 1 Turn 2:
+1. Draw Stage: The player draws cards equal to the hero's INT
+
+2. Action Stage: The player chooses actions for the hero to take in any order
+
+3. End Stage: Any effects that happen at the end of the turn happen; Any effects that last until end of turn end; etc.
+
+Hero 2 Turn 2:
+1. Draw Stage: The player draws cards equal to the hero's INT
+
+2. Action Stage: The player chooses actions for the hero to take in any order
+
+3. End Stage: Any effects that happen at the end of the turn happen; Any effects that last until end of turn end; etc.
+
+------Turn 3 Begins: (etc.)

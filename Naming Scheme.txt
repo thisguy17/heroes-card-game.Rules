@@ -1,0 +1,2 @@
+This Folder Naming Scheme
+FileName<Month>.<Day>.<Version>

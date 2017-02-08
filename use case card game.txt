@@ -1,0 +1,61 @@
+Use Case From Start:
+
+Stats key: Name(Spent/Cost/Minimum) Stat;
+
+GAME START
+- Both ?40+ card decks shuffle (randomize order)
+players place heroes facedown with no plane marker (facedown characters have 1 spd, 1 int, and 1 ski)
+a player may reveal his/her hero to show speed
+- if a player does, that player goes first unless another player reveals a hero with a higher speed
+- the hero with the highest revealed speed goes first
+- if no player reveals speed, flip a coin
+
+DRAW/MULLIGAN
+- Players draw 5 cards
+- Players get one free mulligan, but must take one card less each time after the first mulligan
+
+ROUND 1
+
+R1 ENVIRONMENT PHASE
+no environment phase triggers on turn one (no characters in inner or outer planes)
+
+R1 TURN 1
+Hero1 has the following stats (100 points start; +25/level, after start each point spent costs 10% more, round up)
+Stats function like masteries (you determine your starting stats for each hero while deck building or in hero selection)
+	- Spd(20/20/1) 1; Int(20/20/1) 1; Ski(25/25/1) 1; Str(15/3/1) 5; Con(20/1/10) 20; Lev 1
+
+DRAW
+player1 draws cards equal to Hero1's Int (1)
+
+ACTIONS
+Hero1 uses his move action to go to the flame portal
+Hero1 uses his major action to move to the elemental plane of flame
+Hero1 decides to use no minor actions nor free actions
+
+END TURN 1
+
+R1 TURN 2
+Hero2 has the following stats
+	- Spd(20/20/1) 1; Int(40/20/1) 2; Ski(25/25/1) 1; Str(3/3/1) 1; Con(12/1/10) 12; Lev 1
+
+DRAW
+player2 draws cards equal to Hero2's Int (2)
+
+ACTIONS
+Hero2 uses his move action to go to the flame portal, following Hero1
+Hero2 uses his major action to move to the elemental plane of flame
+Hero2 decides to use no minor actions nor free actions
+
+END R1 TURN 2
+
+R2 ENVIRONMENT PHASE
+A card is drawn from the environment deck and is placed on the elemental plane of flame for each hero in order of Spd
+	- First card is drawn for Hero1
+		- Monster - Roll on the chart for fire plane creatures. That(those) creature(s) is(are) placed on the 
+		battlefield in the elemental plane of fire
+	- Second card is drawn for Hero2
+		- Event - Roll on the chart for fire plane events. That event takes place in the elemental plane of fire or 
+		targeting Hero2.
+Monsters take their turns
+
+ROUND 2

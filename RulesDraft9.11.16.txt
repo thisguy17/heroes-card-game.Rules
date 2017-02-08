@@ -1,0 +1,53 @@
+-Heroes Card Game Instructions-
+
+The battlefield:
+The battlefield is divided into three lanes, each stemming from a base.
+The base is where heroes start the game.
+The base has 6 spaces.
+Each lane has 12 spaces in groups of 3x2 spaces, creating two sets of 6 spaces.
+In between these sets of spaces are two spaces for environment cards.
+In between the middle lane and each lane on either side are 6 transition spaces.
+-some environment cards will add monsters to transitions
+Heroes cannot attack into or out of transitions and all ranges are "Adjacent" within transitions.
+
+-Setting up the Game-
+
+Each player chooses 1-5 heroes and plays with a deck of at least 40 player cards.
+
+If playing with 1-3 heroes, as little as one lane can be played.
+
+If playing with 4-5 heroes, another 6 spaces can be added to each lane, making them 4x3 groups of spaces.
+
+At the start of a game, each base has 200 (or some other number...) health and is invulnerable.
+
+To make the bases vulnerable, an enemy hero or monster must be present on the base and use an action.
+
+Bases can be made invulnerable again by an allied hero using an action when no enemies are present in the base.
+
+The game starts with each player placing his/her heroes on his/her base, going off of speed to determine order of placement.
+
+After that, the environment phase happens. At the beginning of the environment phase, every lane with an empty environment space has one environment card placed in one of its empty spaces and any events or environmental effects occur (all at the same time; if an order is necessary, proceed from closest to environmental deck). Then all monsters take their turn starting from the space closest to the environment deck.
+
+After the environment phase, the hero with the highest speed takes its turn first, followed by the hero with the second highest speed, and so on in that manner until all heroes have taken a turn.
+
+At this point the round ends and a new round is begun, starting with the environment phase.
+
+-Hero Turns- (For cards that can be played anytime, there will be a priority/initiative order, as in magic the gathering)
+
+Start Phase:
+Any effects that happen at the start of a turn happen here.
+
+Draw Phase:
+At the start of a hero's turn, that hero's controller draws cards from the player deck equal to that hero's intelligence divided by 10.
+
+Action Phase:
+After the draw phase, the player then may make actions for the hero. The number of actions a hero may take is equal to its speed divided by 10. 
+ - Most player cards require an action.
+ - Attacking is an action.
+ - Moving one space is an action.
+   - movement through allied spaces is allowed
+   - movement through enemy spaces is disallowed
+   - movement must end on an otherwise empty space
+
+End of Turn Phase:
+Any effects that happen at the end of a turn happen here.

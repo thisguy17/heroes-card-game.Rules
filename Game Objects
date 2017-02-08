@@ -1,0 +1,105 @@
+System Objects:
+
+Battlefield Objects: (* = added for battlefield)
+- Plane Object (Plane of Flame, Plane of Oceans, Plane of Mineral, Plane of Breath, Material plane 1/2, Positive Plane, Negative Plane)
+Plane objects can have any number of card objects within them.
+	- CARD OBJECT (represents a single card on the battlefield)
+		- Attached Cards*
+			- passive item
+			- equipped item 1
+			- equipped item 2
+			- bestowed effects
+			- inflicted effects
+		- Card type
+			- Hero
+				- owner*
+				- controller*
+				- abilities
+					- passive
+					- ab1Name
+						- Type: String type (Action, Move, Minor, Free)
+						- Target: Int target (0 = none, 1 = one target)
+						- Range: String range (ranged, melee, aoe, self)
+						- Description: String description (text description)
+						- Scripts:
+							- Activated
+								- (do this when used)
+							- Triggered
+								- (do this when something happens and this card is in play)
+					- ab2Name
+					- ab3Name
+					- ab4Name
+				- stats: spd, int, ski, con, str, lv
+				- stats growth?: spdUp, intUp, skiUp, conUp, strUp
+			- Item
+				- Type: String type (resource, equipment, bestow, inflict)
+				- Scripts:
+					- Triggered (bestow or inflict)
+						- (do this when picked up)
+			- Monster
+				- abilities
+					- passive
+					- ab1Name
+					- ab<>Name
+				- Scripts:
+					- Movement
+						- (move like this)
+					- Actions
+						- (take these actions)
+					- Reward
+						- (last hit rewards, xp/hero)
+			- Ally
+				- Summoned
+				- Portal Focus
+					- Inner Planar
+						- Game starts with 4 elemental portal focuses in each material plane
+						- Each portal focus sustains a portal to an elemental plane
+						- Portal Focuses have a set amount of HP and are rebuilt after 5 rounds
+					- Outer Planar
+						- Outer Planar portal focuses spawn on turn 10 on a randomly determined inner plane
+						- Only one of each outer planar portal can be active at the same time
+						- Retrieving an outer planar portal focus allows the retriever to activate a portal to the corresponding plane (positive or negative)
+						- Positive
+							- Bring specific env item for reward (healing bestow, item)
+						- Negative
+							- Big Boss Demon (damage bestow, item)
+			- Environment
+			- Hidden (Facedown cards; Untargetable; owner may peek)
+				- Hero: Stealth, Invisible
+				- Item: Undiscovered
+				- Monster: Stealth, Invisible
+				- Ally: Stealth, Invisible
+				- Environment: Undiscovered, Invisible
+		- Card text description
+		- Card Graphics
+			- back
+				- image
+				- special
+			- front
+				- cardImage (main frame for artwork)
+				- Types (card types declare layout and have scripts to get card info for different parts of different cards)
+					- Hero 
+						- determine layout and get data
+					- Ally
+					- Monster
+					- Environment
+					- Item
+- Deck Object (Card[])
+Deck objects represent the different stacks of cards that are available for play in the current game
+	- Player Deck
+		- Player1 Deck 
+			- Consists of a number of hero ability (10?), resource, item, and basic attack cards
+		- Player2 Deck
+	- Environment Deck
+		- Event
+			- Item discovery
+			- Weather
+			- Quest/Story
+			- Effects
+			- Magic
+		- Monster
+			- Randomly generated creature depending on the plane and avg. level of heroes
+
+Menu Objects:
+
+Settings Objects:

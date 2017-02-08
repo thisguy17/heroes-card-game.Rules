@@ -1,0 +1,88 @@
+Battle Card Game: Rules
+
+Goal: Destroy the opposing player's base
+
+Mechanics:
+
+turn based
+	- each hero has a turn and takes its turn in order of initiative, with ties going to coin flip (each turn)
+	- each turn has an action, attack, movement?
+	- players have cards that can be played any time and, technically, do not have turns
+
+turn order
+	- recovery - remove action counter
+	- draw 3 hero cards
+	- environment
+	- action/attack (any order)
+		- actions may be movement or abilities
+		- attack may be directed at heroes or environment, if there is no opposing hero or environment, the base may be attacked
+	- discard down to max hand size
+
+Battlefield:
+
+3 "lanes"
+
+dedicated card spots
+	- Heroes
+	- Ongoing Effects
+	- Creatures/Resource Generators (goals)
+	- Player deck
+	- Battlefield Deck
+
+Decks:
+
+5 "heroes"
+
+6 decks of cards - 10 cards each - 60 card deck total
+	- 1 for each hero (50)
+	- 1 for each player (10)
+
+Cards/Resources:
+
+heros
+	- Health
+	- Initiative
+	- Special
+	- General
+	- Resources
+	- Definitions
+
+coins
+	- Gathered by heroes by "defeating"(reaching goals) environment cards
+	- Gathered by defeating other heroes
+
+action/item/environment cards
+	- Kept in hero/player/battlefield decks
+	- Have a cost (in coins/health/hero resources)
+
+action cards
+	- cost
+	- effect
+		- effects are reduced when used on lanes/heroes unassociated with the card
+		- perhaps they're increased
+		- certain cards may not be affected by hero location (eg. long range spells/abilities)
+
+item cards
+	- cost
+	- effect
+		- increases hero stats
+		- draw power?
+		- protection?
+		- aggression?
+
+environment cards
+	- effect
+		- this lane, the battlefield, random hero, all heroes
+	- creatures
+		- Health
+		- Damage
+		- Special
+		- General
+		- Reward
+		- Challenge Rating
+
+Each hero in a deck starts on the base and may move to a lane as an action.
+To change the lane, heroes must use their action
+Each lane has a fortress which must be destroyed before the base may be attacked
+The base can be defended by heroes blocking a lane or being on the base
+Each hero has a role/class which determines its general stat (eg. tank - must be attacked before any other hero in lane)

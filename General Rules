@@ -1,0 +1,110 @@
+General Rules
+
+Environment Cards:
+When a monster card is resolved, the card is placed on that plane.
+When a monster card is revealed and the plane already has a monster card, the new monster card has no effect.
+When all monsters are cleared from a plane discard the associated monster card.
+
+Bosses:
+Bosses represent leaders or powerful entities of planes of existence.
+There is only one of each boss. 
+Bosses drop valuable rewards such as bestow effects, inflict effects on enemies, or items.
+Bosses are deadly.
+
+Decks:
+Decks must have at least 30 cards (not including hero ability cards [10]; total min.: 40).
+Decks cannot have more than 2 copies of any card (with the exception of basic attack and hero ability cards [10]).
+Decks are shuffled at the beginning of the game, when the associated hero is recorporated, when an effect or ability says to, and when the associated hero recovers.
+
+Items:
+Items played are placed in the player's material plane or on the location they were revealed (environment/monster).
+Items must be picked up by using a minor action.
+A picked up item is considered "held."
+Equipping an equippable item requires a major action.
+Using a held item requires a major action.
+Heroes may have 2 held items and 2 equipped items.
+
+Heroes: # of levels ?? 10 or 20 (conceptualizing 20)
+Heroes are associated with one of two material planes.
+Heroes may return to his/her material plane to RECOVER.
+Recovering requires 3 consecutive, uninterrupted rounds
+- Restores HP, Cleanses effects
+- Shuffles discard pile back into deck
+Heroes may "Explore" on their turn.
+- Draw an environment card; it takes effect immediately
+When a hero loses all of its HP it dies.
+When a hero dies, all of its carried items are left behind and can be picked up.
+Heroes that have died RECORPORATE after a number of rounds equal to its level divided by 2 rounded up.
+When a hero is recorporated, place the hero card on its home plane, restore all its hit points, cleanse all inflicted conditions, and shuffle its discard pile into its deck.
+---
+Stats Building - 100 points; +25/level; after game start each point increase costs 10% more, rounded up
+Stats function like masteries (you determine your starting stats for each hero while deck building or in hero selection)
+STAT POINT COSTS: SPD - 20, INT - 20, SKI - 25, STR - 3, CON - 1
+-ALTERNATE:
+Stats Building - 15 point base; +3/level; after game start each point increase costs more
+Stats function like masteries (you determine your starting stats for each hero while deck building or in hero selection)
+STAT POINT COSTS: 	SPD - 3-4-5-5-6-7-8-8-9	(9)	INT - 3-4-5-5-6-7-8-8-9	(9)	SKI - 4-5-6-7-7-8-9-10 (8)
+					STR - 1for2(5x)-1(10x)-2(15x)-3(10x) (45)	CON - 1for10(10x)-1for5(15x)-1for3(20x)-1for2(10x) (255)
+Minimum Stats: SPD - 1, INT - 1, SKI - 1, STR - 2, CON - 10; Cost - 12; 3 Remaining
+
+Events:
+Events are environment cards that simply occur or have ongoing effects.
+Events have a duration of Instant, Ongoing, or Turns.
+Instant means that the event just happens. 
+	- Resolves immediately
+	- Effects occur and are resolved immediately
+Ongoing means that the event's effects don't end until criteria (depends on the card) are met.
+Turns means that the event's effects end after a number of turns.
+
+Monster:
+Monster cards are environment cards that declare that a hostile (or otherwise...) creature has appeared in a location.
+A monster card has effects based on the environment in which it is placed.
+When a monster card is drawn, a number between 1 and 8 is randomly determined; this is the number of creatures that will appear.
+The total challenge rating of monsters that appear is equal to the average hero level.
+Examples:
+	- Roll is 3
+	- Avg level/CR is 9
+	- Location: Water Plane
+	- Any combination of 3 creatures that adds up to CR9
+		- Water Elemental Large CR 5
+		- Sahuagin CR 3
+		- Water Elemental Small CR 1
+
+	- Roll is 1
+	- Avg level/CR is 13
+	- Location: Plane of Air
+	- One creature, closest to challenge 13
+		- Djinni CR 12
+
+	- Roll is 8
+	- Avg level/CR is 16
+	- Location: Negative Plane
+	- Any combination of 8 creatures that adds up to CR 16
+		- Glabrezu CR 9
+		- Quasit CR 2 x3
+		- Dretch CR 0.25 x 4
+
+Need to come up with pre-defined results?
+example:
+level 1 - 1 = 1xCR1; 2 = 2xCR0.5; 3 = 1xCR0.5+2xCR0.25; 4 = 4xCR0.25 || 2xCR0.125+1xCR0.25+1xCR0.5; 5 = etc....
+Algorithms
+- Generate list of all possible combinations adding up to avg lv# that has Roll# values
+
+//declare count/fullmonlist[]/avglv/rollnum/total
+for (int i; i = 0; i++)
+	
+	current = fullmonlist[i].cr
+
+	total = current
+
+	count = 1
+
+	if(count < rollnum && total < avglv)
+	
+		for(int n; n=1;n++)
+
+			next1 = fullmonlist[n]
+
+			total = current + next1
+
+			count++

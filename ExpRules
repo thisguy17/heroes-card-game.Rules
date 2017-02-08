@@ -1,0 +1,52 @@
+Experience Rules/Notes
+
+XP:
+Gain xp for killing monsters based on the monster itself = CR(fractions count)
+Gain xp for killing heroes equal to half the amount of xp needed for the victim to level up from current level base to next level
+
+estimated 45s per turn (x2 players + 15 sec env phase/round, ~1.75min/round)
+avg game should be between 10 and 25 turns (if 10 levels, ends with heroes btwn 6 and 10; if 20 levels, ends with heroes btwn 9 and 15)
+20-40 min avg game time
+
+Lv XP  CXP  <20lv>/<10lv> <-Approx. #Rounds
+2  3   3    1/2
+3  4   7    2/3
+4  5   12   3/5
+5  6   18   4/7
+6  7   25   5/9
+7  8   33   6/12
+8  9   42   7/15
+9  10  52   9/18
+10 11  63   11/21
+11 12  75   13
+12 13  88   15
+13 14  102  17
+14 15  117  19
+15 16  133  21
+16 17  150  24
+17 18  168  27
+18 19  187  30
+19 20  207  33
+20 21  228  37
+
+alternate (lv x2 to up)
+lv    xp    cxp
+2     4     4
+3     6     10
+4     8     18
+5     10    28
+6     12    40
+7     14    54
+8     16    70
+9     18    88
+10    20    108
+11    22    130
+12    24    154
+13    26    180
+14    28    208
+15    30    238
+16    32    270
+17    34    304
+18    36    340
+19    38    378
+20    40    418

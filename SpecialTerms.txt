@@ -1,0 +1,36 @@
+Discorporate: When a hero is reduced to 0 hit points.
+    - Remove from map
+    - End all Afflict and Bestow
+    - Miss turns
+    - Drop environment items
+
+Recorporate: When a hero is restored from Discorporation.
+    - Place in starting area.
+    - Restore max HP.
+
+Constitution: Health Growth Stat.
+
+Strength: Attack Growth Stat.
+
+Temporary Hit Points: HP shield
+    - Lost before normal hp
+    - cannot be restored
+    - can only have from one instance
+
+Cleanse: Remove debuff(s)/buff(s).
+    - happens when returning to starting portal; cleanse all
+    - effects can cleanse all or a number of effects
+
+Afflict: Apply debuff(s).
+    - detrimental
+    - abilities, events, and items can apply
+
+Bestow: Apply buff(s).
+    - helpful
+    - abilities, events, and items can apply
+
+Teleport: Instant travel. Does not pass through interstitial spaces.
+
+Weapon: Can equip 2.
+
+Items (Wondrous): Can have 4.
